@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>굶지마 친구들</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/javascript.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <h1 class="sr-only">굶지마 친구들 게임</h1>
+        </header>
+        <section>
+            <article class="gamestory">
+                <h2 class="text-center"><a href="#">굶지마! 친구들!</a></h2>
+                <div class="slide">
+                    <ul class="slides">
+                        <li>
+                            <img src="./images/story01.png" alt="미노 스토리설명-빗속에 버려진 미노">
+                            <p>
+                                4년전 .... <br />
+                                하늘에서 내려온 비가 땅을 적시던 어느날, <br />
+                                차가운 빗속에서 슬피 울고 있던 미노...
+                            </p>
+                        </li>
+                        <li>
+                            <img src="./images/story02.png" alt="미노 스토리설명- 선호를 만난 미노">
+                            <p>
+                                그런 미노에게 우산이 되어준 서노씨, <br />
+                                미노가 서노씨의 품에 안기게 된 날...
+                            </p>
+                        </li>
+                        <li>
+                            <img src="./images/story03.png" alt="미노 스토리설명 - 다른 친구들을 돕고싶은 미노">
+                            <p>
+                                사랑을 듬뿍 받고, 건강한 몸짱 강아지가 된 미노는 <br />
+                                자신이 받은 사랑을 돌려주기 위한 프로젝트를 진행하게 되는데...!
+                            </p>
+                        </li>
+                        <li>
+                            <img src="./images/story04.png" alt="미노 스토리설명- 굶지마 친구들 게임 타이틀">
+                        </li>
+                    </ul>
+                    <ol class="pagination">
+                        <li class="on"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                    </ol>
+                    <ul class="slides_switch">
+                        <li class="ball">ball</li>
+                        <li class="slides_pause"><a href="#">stop</a></li>
+                        <li class="slides_play"><a href="#">play</a></li>
+                    </ul>
+                </div>
+                <div class="txt">
+                    <ol>
+                        <li>
+                            미노 : 다시 돌아올 거라고 했잖아 잠깐이면 될 거라고 했잖아 <br />
+                            여기 서 있으라 말했었잖아 ㅠ.ㅠ
+                        </li>
+                        <li>
+                            서노 : 귀엽고 꼬질한 너! 나와함께 가자!!
+                        </li>
+                        <li>
+                            미노 : SUN호, 고마워! 혹시 근데 사업하게 돈 좀 줄 수 있어?(찡긋)
+                        </li>
+                        <li>
+                            미노야 하고 싶은거 다 하렴 ! <br />
+                            맛있게 먹고 건강하게만 있어줘!
+                        </li>
+                    </ol>
+                </div>
+                <div class="gameexplane">
+                    <h2 class="sr-only">게임설명</h2>
+                    <p>
+                        <img src="./images/rule_done.png"
+                            alt="게임 설명 이미지: 강아지들을 클릭하면 점수를 100점씩 획득할 수 있지만, 중간에 숨어있는 여우 잭을 클릭하면 100점을 잃습니다">
+                    </p>
+                </div>
+            </article>
+            <article class="game">
+                <div class="gamescreen">
+                    <p>000점</p>
+                    <ul>
+                        <li>미노</li>
+                        <li>크림</li>
+                        <li>잭</li>
+                    </ul>
+
+                    <span class="bush_1">풀1</span>
+                    <span class="bush_2">풀2</span>
+                    <span class="bush_3">풀3</span>
+                    <span class="bush_4">풀4</span>
+                </div>
+                <div id="intrigue">        
+                    <p class="play">
+                        <img src="./images/play_1.jpg" alt="게임 실행 이미지" class="run">
+                    </p>
+                </div>
+                <button type="button" class="start">start</button>
+                <progress value="0" max="100"></progress>
+                <span><img src="./images/clock_icon.png" alt="시계 아이콘"></span>
+            </article>
+            <article class="lightbox">
+                <div id="pop_score">
+                    <p>1500</p>
+                    <a href="#" class="shop">쇼핑몰 <br /> 바로가기</a>
+                    <a href="mypage.html" target="_blank" class="accumulate">적립확인 <br /> 바로가기</a>
+                    <button type="button">닫기</button>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <address>COPYRIGHT &copy; 2021. 출근하시조. All rights reserved.</address>
+        </footer>
+    </div>
+</body>
+
+</html>

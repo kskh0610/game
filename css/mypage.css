@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+#wrap{
+    width: 350px;
+    height: 560px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header{
+    height: 50px;
+    background-color: #ffd966;
+}
+
+header>h1{
+    padding: 5px 0 5px 15px;
+    font-size: 30px;
+}
+
+section>.name{
+    display: flex;
+    position: relative;
+    margin: 20px 0;
+}
+
+section>.name>p{
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+section>.name>p:nth-child(1){
+    font-weight: 800;
+    font-size: 30px;
+}
+
+section>.name>p:nth-child(2){
+    margin-top: 15px;
+}
+
+section>.name>a{
+    position: absolute;
+    right: 0px;
+}
+
+section>.name>a>img{
+    width: 40px;
+    height: 40px;
+}
+
+section>.mypage>ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: #ffd966;
+    margin-bottom: 30px;
+}
+
+section>.mypage>ul>li>a>img{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+section>.mypage>ul>li>a>p{
+    margin: -5px 5px 10px 0;
+}
+
+section>.mypage>ul>li:nth-child(3)>a>p{
+    margin-left: 7px;
+}
+
+section>.my_point>li{
+    text-align: center;
+    background-color: #ffd966;
+}
+
+section>.my_point>li:nth-child(1){
+    height: 200px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 200px;
+}
+
+section>.my_point>li:nth-child(2){
+    height: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+section>.my_point>li:nth-child(2)>a>img{
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+
+section>.point{
+    height: 100px;
+    margin-top: 30px;
+}
+
+section>.point>ul>li{
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+section>.point>ul>ol{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #ffd966;
+}
+
+section>.point>ul>ol>li{
+    padding: 15px 15px;
+}
